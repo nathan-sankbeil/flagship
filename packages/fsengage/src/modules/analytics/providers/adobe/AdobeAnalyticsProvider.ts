@@ -303,7 +303,7 @@ export class AdobeAnalyticsProvider extends AnalyticsProvider {
       const contextData = {
         '&&events': 'purchase',
         '&&products': AdobeAnalyticsProvider.serializeProducts(properties.products),
-        purchaseId: action.identifier
+        purchaseID: action.identifier
       };
 
       return this.client.trackAction('purchase', contextData);

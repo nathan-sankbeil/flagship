@@ -108,7 +108,11 @@ export default class CoreContentManagementSystemProvider extends ContentManageme
 
         return null;
       })
-      .catch(logAndRethrowError.bind(null));
+      .catch((e: Error) => {
+        console.log(`Error getting identifiers for group ${group} slot ${slot}`, e);
+
+        return null;
+      });
   }
 
 

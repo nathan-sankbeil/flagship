@@ -225,7 +225,7 @@ export default class DrawerRouter extends Component<PropType, AppStateTypes> {
       webRouterProps
     } = appConfig;
 
-    let Router;
+    let Router: typeof React.Component;
 
     switch (webRouterType) {
       case 'hash':

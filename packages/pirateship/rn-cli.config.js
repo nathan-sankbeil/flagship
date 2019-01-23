@@ -1,6 +1,6 @@
 const path = require('path');
 const fs = require('fs');
-const blacklist = require('metro/src/blacklist');
+const blacklist = require('metro-config/src/defaults/blacklist');
 
 
 function generateBlacklist() {

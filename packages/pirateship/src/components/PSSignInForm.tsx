@@ -418,7 +418,8 @@ export default class PSSignInForm extends Component<
     try {
       const success = await TouchId.authenticate(authPromptText, {
         title: 'Authentication Required',
-        color: variables.palette.secondary
+        color: variables.palette.secondary,
+        fallbackTitle: ''
       });
       return !!success;
     } catch (e) {

@@ -18,14 +18,12 @@ function generateBlacklist() {
 }
 
 const config = {
-  getBlacklistRE() {
-    return generateBlacklist()
-  },
-  getProjectRoots() {
-    return [
-      path.resolve(__dirname),
-      path.resolve(__dirname, '../..')
-    ];
+  watchFolders: [
+    path.resolve(__dirname),
+    path.resolve(__dirname, '../..')
+  ],
+  resolver: {
+    blacklistRE: generateBlacklist()
   }
 };
 

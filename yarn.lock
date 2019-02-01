@@ -8971,10 +8971,10 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsc-android@224109.x.x:
-  version "224109.1.0"
-  resolved "https://registry.yarnpkg.com/jsc-android/-/jsc-android-224109.1.0.tgz#9749ec92f1e284b3c09befe7c47cc6e60b1f0cdf"
-  integrity sha512-mhALFynePc/wJsUt9BJuH13mSK/dGWtBO/pcYwVV1I0A7iduyqy3fSoAt1b0yI+/B3TzlGyue/gqjPxsqG1HRQ==
+jsc-android@236355.x.x:
+  version "236355.1.1"
+  resolved "https://registry.yarnpkg.com/jsc-android/-/jsc-android-236355.1.1.tgz#43e153b722e3c60dd0595be4e7430baf65e67c9c"
+  integrity sha512-2py4f0McZIl/oH6AzPj1Ebutc58fyeLvwq6gyVYp1RsWr4qeLNHAPfW3kmfeVMz44oUBJMQ0lECZg9n4KBhHbQ==
 
 jsdom@^11.5.1:
   version "11.12.0"
@@ -12467,10 +12467,10 @@ react-native-sensitive-info@^5.1.0:
   resolved "https://registry.yarnpkg.com/react-native-sensitive-info/-/react-native-sensitive-info-5.2.7.tgz#e49be2dacac9b6a9b332903de0070282939c4ddb"
   integrity sha512-e5HTRQ/QWIVUXkLUHO2YglyCYFwuPjuI91Bhqp9y8jOOgP/ZX8rwS+JyJFDTytbg5ym5lLyjnOTKsc/dlFMRMg==
 
-react-native-svg@^7.0.2:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-7.2.0.tgz#4a43e843938eb5edcb6a7ec34f0387d301533315"
-  integrity sha512-Z61EdfcwQLrTCIJhUC0L9kG3hkG/jvJRR/O5boh9dk1JcptF4TsfOkIKXgcnFCY7W4Y0xVr/AThhNP3xmY7VNw==
+react-native-svg@^8.0.0:
+  version "8.0.10"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-8.0.10.tgz#b07e2342d1486220f5fda1a584e316e7d2d1f392"
+  integrity sha512-gsG5GUdvlox67+ohLnq3tZSqiYBmz4M5lKKeUfnJZ8EPrMMS5ZgaVj7Zcccee1VvINS5xQaoenUJdha/GEo34w==
   dependencies:
     color "^2.0.1"
     lodash "^4.16.6"

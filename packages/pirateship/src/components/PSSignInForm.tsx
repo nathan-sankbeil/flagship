@@ -215,7 +215,10 @@ export default class PSSignInForm extends Component<
       rememberMe: {
         hidden: !this.state.biometricAuthSupported,
         label: 'Remember Me',
-        onTintColor: variables.palette.secondary,
+        trackColor: {
+          true: variables.palette.secondary,
+          false: null
+        },
         // Android changes the color of the thumb switch when toggled on to be a conflicting green
         thumbTintColor: Platform.OS === 'android' ? variables.palette.surface : undefined,
         stylesheet: merge({}, t.form.Form.stylesheet, fieldStyles, {

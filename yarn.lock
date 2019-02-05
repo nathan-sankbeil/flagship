@@ -678,6 +678,11 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@brandingbrand/fsfoundation@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@brandingbrand/fsfoundation/-/fsfoundation-0.1.0.tgz#4fbd3a497d6c6c8f7488bc79ea5a5d79fd55f35f"
+  integrity sha512-S4Wx+NAX1y+qSxI9Pjbn9rQWEw2lHTujh4dSAU8Ya4tPbTp1ATiJk0iWQQb0m4sGVX39tn43c3i78i0rbK5O3g==
+
 "@brandingbrand/greenkeeper-lockfile@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@brandingbrand/greenkeeper-lockfile/-/greenkeeper-lockfile-0.0.1.tgz#fcdfdbff529aed0eb78ae2719c726f001f2d13ce"
@@ -703,6 +708,13 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@brandingbrand/react-native-leanplum/-/react-native-leanplum-1.0.1.tgz#a39a457c64c1ab2c457dd4710018b3a62c3d7620"
   integrity sha512-BN7RQgm0EsA6EzSsnLM1du3NbRnsfdnZ6K2+3KYGqcM9lHV18gpRVlPiGBwRI9/4RP39TdbBb/yrhxYkzOoWsg==
+
+"@brandingbrand/react-native-leanplum@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@brandingbrand/react-native-leanplum/-/react-native-leanplum-2.0.3.tgz#5e9b79404e50b0f6b200e854202c1939b904e3a6"
+  integrity sha512-pqt5rgEy1gBCtQ1x2ZoB+zYYS1dTkNFywsFOaQGmRsByKJK1EXbJw85G+XLN8r4Tn0UhHZUOX4BRbcV6Yu4LvA==
+  dependencies:
+    "@brandingbrand/fsfoundation" "^0.1.0"
 
 "@commitlint/cli@^7.1.2", "@commitlint/cli@^7.4.0":
   version "7.4.0"

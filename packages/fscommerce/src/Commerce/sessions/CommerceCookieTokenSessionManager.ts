@@ -42,7 +42,8 @@ export default class CommerceCookieTokenSessionManager extends CommerceSessionMa
           return Promise.resolve(this.token);
         } catch (e) {
           console.log('invalid stored token', e);
-          SInfo.deleteItem(CommerceSessionManager.COMMERCE_TOKEN, {});
+          SInfo.deleteItem(CommerceSessionManager.COMMERCE_TOKEN, {})
+            .catch(e => console.warn('cannot delete token', e));
           return Promise.resolve(null);
         }
       })

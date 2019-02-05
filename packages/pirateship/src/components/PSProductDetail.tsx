@@ -260,17 +260,17 @@ class PSProductDetailComponent extends Component<
     if (nextProps.commerceData && state.id !== nextProps.commerceData.id) {
       const { commerceData } = nextProps;
       const nextState: Partial<PSProductDetailState> = { id: commerceData.id };
-  
+
       if (!commerceData.variants || commerceData.variants.length === 0) {
         return {
           ...nextState,
           variantId: commerceData.id
         };
       }
-  
+
       const variant = find(commerceData.variants, { id: commerceData.id })
         || commerceData.variants[0];
-  
+
       if (variant) {
         return {
           ...nextState,

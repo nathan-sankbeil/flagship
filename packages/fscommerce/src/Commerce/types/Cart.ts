@@ -33,6 +33,8 @@ export interface Cart<T extends CartItem = CartItem> {
 
   /**
    * An array of products of which the user has added to the cart.
+   * @TJS-type array
+   * @items { "$ref": "#/definitions/CartItem" }
    */
   items: T[];
 

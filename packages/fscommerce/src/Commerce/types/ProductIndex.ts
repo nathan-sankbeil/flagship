@@ -81,6 +81,8 @@ export interface Refinement {
 export interface ProductIndex<T extends Product = Product> extends Partial<Pageable> {
   /**
    * An array of products comprising the index.
+   * @TJS-type array
+   * @items { "$ref": "#/definitions/Product" }
    */
   products: T[];
 
@@ -119,7 +121,8 @@ export interface ProductIndex<T extends Product = Product> extends Partial<Pagea
   /**
    * An object representing the types of refinements and values for each that have been selected
    * to filter the product index.
-   *
+   * @TJS-type object
+   * @additionalProperties { "type": "array", "items": { "type": "string" } }
    * @example {
    *   "cgid": ["womens"]
    * }

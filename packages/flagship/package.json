@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "prepare": "tsc",
-    "tsc:watch": "tsc -w"
+    "tsc:watch": "tsc -w",
+    "schema": "yarn prepare && yarn flagship schema"
   },
   "bin": {
     "flagship": "flagship.js"
@@ -33,7 +34,10 @@
   "devDependencies": {
     "@brandingbrand/fsengage": "^4.1.0",
     "@types/yargs": "^12.0.1",
-    "true-case-path": "^1.0.3"
+    "lodash.get": "^4.4.2",
+    "quicktype-core": "^6.0.44",
+    "true-case-path": "^1.0.3",
+    "typescript-json-schema": "^0.39.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

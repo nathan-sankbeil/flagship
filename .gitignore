@@ -73,3 +73,6 @@ packages/pirateship/android
 packages/pirateship/ios
 packages/pirateship/web
 packages/pirateship/env/env.js
+
+# Ignore generated schemas
+packages/flagship/schemas

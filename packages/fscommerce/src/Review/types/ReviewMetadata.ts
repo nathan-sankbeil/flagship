@@ -24,6 +24,7 @@ export interface ReviewMetadata {
 
   /**
    * Creation date and time of the review
+   * @TJS-type string
    */
   created?: any;  // TODO: date interface
 }

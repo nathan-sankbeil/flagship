@@ -1,5 +1,8 @@
 import { Decimal } from 'decimal.js';
 export interface CurrencyValue {
+  /**
+   * @TJS-type string
+   */
   value: Decimal;
   currencyCode: string;
 }
